@@ -1,0 +1,56 @@
+.stionic-categories .item{
+	background:#fff;
+	padding:10px;
+	font-size:15px;
+	margin:5px 0;
+}
+.stionic-categories .update-success{
+	display:none;
+	position:fixed;
+	padding:50px;
+	background:rgba(0,0,0,0.7);
+	color:#fff;
+	font-size:30px;
+	line-height:50px;
+	top:50%;
+	left:50%;
+	border-radius:25px;
+	margin-top:-75px;
+	margin-left:-93px;
+}
+.stionic-categories .order-terms img{vertical-align: middle}
+.stionic-categories .order-terms .sortable {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%;
+}
+.stionic-categories .order-terms .sortable:not(.children) {
+	padding: 20px;
+	box-sizing: border-box;
+}
+.stionic-categories .order-terms ul{list-style:none}
+.stionic-categories .order-terms ul.children{margin-left:25px}
+.stionic-categories .order-terms .sortable li > .item{
+	padding:2px 0px;
+	margin:4px 0px;
+	border:1px solid #ddd;
+	cursor:move;
+	-moz-border-radius:6px;
+	background-color:#f9f9f9;
+}
+.stionic-categories .order-terms .sortable li:nth-child(2n+1) > .item{background-color:#fff!important;}
+.stionic-categories .order-terms .sortable li span{
+	display:inline-block;
+	padding:5px 10px;
+	color:#555;
+	font-size:13px;
+}
+.stionic-categories .order-terms .sortable li input[type="checkbox"]{
+	margin-left:5px;
+}
+.stionic-categories .order-terms .sortable li.placeholder{
+	border: dashed 2px #ccc;
+	height:30px;
+	background-color:#FFF;
+}

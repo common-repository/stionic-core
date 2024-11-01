@@ -1,0 +1,60 @@
+.panel-open-application{
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+	font-weight: bold;
+}
+.open-application-content{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	border-radius: 15px 15px 0 0;
+	overflow: hidden;
+	background: #fff;
+	padding: 0 16px 24px;
+	box-sizing: border-box;
+}
+.open-application-title{
+	padding: 16px;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+}
+.open-application-button{
+	padding: 10px 0;
+	line-height: 40px;
+	overflow: auto;
+}
+.open-application-button >img{
+	float: left;
+	width: 40px;
+	height: 40px;
+	object-fit: contain;
+	margin-right: 10px;
+}
+.open-application-button >span{
+	max-width: calc(100% - 150px);
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	float: left;
+}
+.open-application-button button{
+	width: 90px;
+	padding: 5px;
+	border-radius: 50px;
+	line-height: 30px;
+	float: right;
+	border: none;
+	font-size: 14px;
+}
+.open-application-button.is-secondary button{
+	color: #787c7e;
+	background: #f6f7f8;
+	border: 1px solid #d3d6da;
+	padding: 4px 5px;
+}
